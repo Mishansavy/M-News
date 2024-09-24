@@ -11,7 +11,6 @@ export const Stories = () => {
   }
   return (
     <>
-      {/* <div>Tech Search</div> */}
       <div className="stories-container">
         {hits.map((curPost) => {
           const { title, author, objectID, url, num_comments, created_at } =
