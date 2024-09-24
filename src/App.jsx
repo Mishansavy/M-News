@@ -1,5 +1,5 @@
 import React from "react";
-import Pagination from "./components/pagination";
+import Pagination from "./components/Pagination";
 import { Stories } from "./components/Stories";
 import Search from "./components/Search";
 import "./app.css";
