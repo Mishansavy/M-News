@@ -4,7 +4,7 @@ import Pagination from "./Components/Pagination.jsx";
 import Stories from "./Components/Stories.jsx";
 import "./App.css";
 const App = () => {
-  const websitename = "Mishan News";
+  const websitename = "Mishan Bytes & Memes News";
 
   return (
     <>
