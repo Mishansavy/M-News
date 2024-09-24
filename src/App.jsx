@@ -1,7 +1,7 @@
 import React from "react";
-import { Stories } from "./components/Stories.jsx";
+import Search from "./Components/Search.jsx";
 import Pagination from "./components/Pagination.jsx";
-import Search from "./components/Search.jsx";
+import Stories from "./components/Stories.jsx";
 import "./app.css";
 const App = () => {
   const websitename = "Mishan News";

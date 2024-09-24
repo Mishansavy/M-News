@@ -1,6 +1,6 @@
 import React from "react";
 import { useGlobalContext } from "../context";
-export const Search = () => {
+function Search() {
   const { query, searchpost } = useGlobalContext();
   return (
     <>
@@ -16,5 +16,5 @@ export const Search = () => {
       </form>
     </>
   );
-};
+}
 export default Search;

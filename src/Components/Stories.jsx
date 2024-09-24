@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useGlobalContext } from "../context";
-export const Stories = () => {
+function Stories() {
   const { hits, nbpages, isloading, removePost } = useGlobalContext();
   if (isloading || !hits) {
     return (
@@ -40,5 +40,5 @@ export const Stories = () => {
       </div>
     </>
   );
-};
+}
 export default Stories;
