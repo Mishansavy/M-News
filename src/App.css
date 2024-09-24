@@ -4,15 +4,18 @@
   border: 1px solid #ffe;
   padding: 20px;
 }
+
 input {
   padding: 10px 20px;
 }
+
 .heading,
 .input-box,
 .pagination-area {
   display: flex;
   justify-content: center;
 }
+
 .pagination-area {
   margin: 20px 0px;
   width: 100%;
@@ -20,15 +23,18 @@ input {
   display: flex;
   align-items: center;
 }
+
 .heading {
   font-size: 30px;
   font-weight: 400;
-  color: #dac0a3;
+  color: #005796;
 }
+
 .card h2 {
   font-size: 20px;
   color: #fff8ef;
 }
+
 .pagination-area button {
   background-color: #102c57;
   color: rgb(255, 255, 255);
@@ -36,9 +42,11 @@ input {
   padding: 5px 25px;
   border-radius: 10px;
 }
+
 .pagination-area p {
   margin: 20px;
 }
+
 .stories-container {
   /* flex-direction: column; */
   display: flex;
@@ -47,8 +55,9 @@ input {
   flex-flow: wrap;
   gap: 5px;
 }
+
 .card {
-  background-color: #dac0a3;
+  background-color: #0030b4;
   width: 22%;
   height: 30vh;
   padding: 20px;
@@ -56,20 +65,25 @@ input {
   margin: 6px 0px;
   color: #fff;
 }
+
 .card p {
   padding: 10px;
 }
+
 a {
   color: #ffe;
 }
+
 .readmore {
   padding: 0px 10px;
   text-decoration: none;
 }
+
 .remove {
-  color: red;
+  color: rgb(255, 88, 88);
   text-decoration: none;
 }
+
 .searching-post-text {
   text-align: center;
   color: #eadbc8;
