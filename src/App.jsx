@@ -1,7 +1,7 @@
 import React from "react";
-import Pagination from "./components/Pagination";
-import { Stories } from "./components/Stories";
-import Search from "./components/Search";
+import Pagination from "./components/Pagination.jsx";
+import { Stories } from "./components/Stories.jsx";
+import Search from "./components/Search.jsx";
 import "./app.css";
 const App = () => {
   const websitename = "Mishan News";
