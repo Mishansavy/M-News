@@ -32,7 +32,7 @@ input {
 
 .card h2 {
   font-size: 20px;
-  color: #fff8ef;
+  color: #000000;
 }
 
 .pagination-area button {
@@ -57,13 +57,16 @@ input {
 }
 
 .card {
-  background-color: #0030b4;
+  background-color: #ffffff;
   width: 22%;
   height: 30vh;
   padding: 20px;
   border-radius: 8px;
-  margin: 6px 0px;
-  color: #fff;
+  margin: 10px;
+  color: #000000;
+  -webkit-box-shadow: 4px 3px 20px 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 4px 3px 20px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 4px 3px 20px 5px rgba(0, 0, 0, 0.15);
 }
 
 .card p {
@@ -71,7 +74,7 @@ input {
 }
 
 a {
-  color: #ffe;
+  color: rgb(0, 0, 0);
 }
 
 .readmore {
@@ -80,7 +83,7 @@ a {
 }
 
 .remove {
-  color: rgb(255, 88, 88);
+  color: rgb(255, 0, 0);
   text-decoration: none;
 }
 
